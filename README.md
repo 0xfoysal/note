@@ -1,3 +1,5 @@
+https://iamsolos.gitbook.io/security_all_note/
+
 beef install
 ```
 1. Run using command : beef-xss
