@@ -49,9 +49,20 @@ feroxbuster -u http://bugcrowd.com/ and hit enter.
 FFUF install
 ```
 sudo add-apt-repository -y ppa:longsleep/golang-backports
-sudo apt update
+sudo apt update        
 sudo apt install -y golang-go
 cd ~
 go get github.com/ffuf/ffuf
 sudo ln -s ~/go/bin/ffuf /usr/sbin/ffuf
+```
+
+sqlite3 tool explore db
+```
+ls -l 
+file example.db 
+sqlite3 example.db           
+	.tables
+	customers
+	PRAGMA table_info(customers);
+	SELECT * FROM customers;
 ```
