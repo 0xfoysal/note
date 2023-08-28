@@ -1,5 +1,9 @@
 https://iamsolos.gitbook.io/security_all_note/
 
+dvwa installation in kali 
+```
+https://techdhee.org/how-to-install-dvwa-in-kali-linux/
+```
 beef install
 ```
 1. Run using command : beef-xss
