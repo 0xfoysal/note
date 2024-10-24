@@ -70,3 +70,40 @@ sqlite3 example.db
 	PRAGMA table_info(customers);
 	SELECT * FROM customers;
 ```
+Build in Framwork
+```
+https://github.com/FraternityITGroup/InfoSploit
+https://github.com/milo2012/metasploitHelper 
+```
+some tools
+```
+firefox decryp
+ss2johnpy
+aquatone-discover   CorsMe         httprobe         pw-inspector          stackprof-flamegraph.pl
+aquatone-gather     dnsprobe       httpx            qsreplace             stackprof-gprof2dot.py
+aquatone-scan       dpl4hydra.sh   hydra            racc                  subfinder
+aquatone-takeover   enum4linux.pl  hydra-wizard.sh  rake                  subzy
+assetfinder         extract.rb     js-beautify      rspec                 threader3000
+bashtop             ffuf           kxss             rubocop               tldextract
+bundle              gf             ldiff            ruby-memory-profiler  waybackurls
+bundler             hakrawler      naabu            ruby-parse            XSpear
+BurpSuiteCommunity  htmldiff       netaddr          ruby-rewrite
+cors                htmlmin        nokogiri         searchsploit
+corscanner          httparty       nuclei           stackprof 
+```
+
+Direct apt install tools
+```
+sudo apt install iodine
+sudo apt install -y tshark
+sudo apt-get install -y masscan
+sudo apt-get install -y commix
+sudo snap install termshark
+```
+
+Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes tool
+```
+python3 -m pip install ciphey --upgrade
+```
+cd /opt
+brave.com  BurpSuiteCommunity  exploitdb  idafree-7.0  linPEAS  SecLists
