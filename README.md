@@ -107,3 +107,20 @@ python3 -m pip install ciphey --upgrade
 ```
 cd /opt
 brave.com  BurpSuiteCommunity  exploitdb  idafree-7.0  linPEAS  SecLists
+
+vnc
+```
+https://mitchtech.net/vnc-setup-on-raspberry-pi-from-ubuntu/
+
+SERVER:
+sudo apt install tightvncserver
+vncserver :1 -geometry 1366x768 -depth 16 -pixelformat rgb565
+
+you should get the output as -> New ‘X’ desktop is raspberrypi:1, if it started successfully
+to kill vncserver: vncserver -kill :1
+
+CLIENT:
+sudo apt install xtightvncviewer
+vncviewer <ip>:5901  (or)  5900
+
+```
