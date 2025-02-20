@@ -124,3 +124,17 @@ sudo apt install xtightvncviewer
 vncviewer <ip>:5901  (or)  5900
 
 ```
+
+cap2hccapx
+```
+git clone https://github.com/hashcat/hashcat-utils.git
+cd hashcat-utils/src
+make
+sudo cp cap2hccapx.bin /usr/local/bin/cap2hccapx
+sudo chmod +x /usr/local/bin/cap2hccapx
+cap2hccapx --help
+```
+Now you can convert .cap files to .hccapx for hashcat WPA/WPA2 cracking.
+
+
+
